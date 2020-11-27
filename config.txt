@@ -62,16 +62,5 @@ dtoverlay=vc4-fkms-v3d
 max_framebuffers=2
 
 [all]
-#dtparam=i2c_vc=on
-#dtoverlay=vc4-fkms-v3d
-#dtoverlay=i2c-gpio,bus=3,i2c_gpio_sda=0,i2c_gpio_scl=1
-#dtoverlay=ov9281gpiocsi0
-#dtoverlay=ov9281i2cgpio
-dtoverlay=crazyov9281,bus=3,i2c_gpio_sda=0,i2c_gpio_scl=1
-#dtoverlay=ov9281i2c3
-#dtoverlay=ov92813
-#dtoverlay=i2c0-bcm2708,sda0_pin=0,scl0_pin=1
-dtoverlay=ov9281_csi1i2c0
-#dtoverlay=ov9281_2
-#start_x=1
-#gpu_mem=128
+dtoverlay=ov9281softi2c,bus=3,i2c_gpio_sda=0,i2c_gpio_scl=1
+dtoverlay=ov9281csi1
