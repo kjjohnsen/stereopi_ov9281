@@ -1,5 +1,5 @@
 # stereopi_ov9281
-Source code for supporting two ov9281 on the stereopi1
+Source code for supporting two ov9281 on the stereopi1 (Requires Kernel 5.4+ with built-in ov9281 driver)
 
 To install, use the device-tree-compiler to build each file.  
 - dt-blob.dts goes to dt-blob.bin in /boot
